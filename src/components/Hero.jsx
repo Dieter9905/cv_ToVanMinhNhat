@@ -1,4 +1,5 @@
 import React from 'react'
+import avatarImage from '../../images/z5809913538820_79124efe288c8d34c7415685c357916b.jpg'
 
 export default function Hero() {
   return (
@@ -55,8 +56,8 @@ export default function Hero() {
           <div className="animate-fadeInUp" style={{animationDelay: '0.2s'}}>
             <div className="relative">
               <div className="w-96 h-96 mx-auto">
-                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=600" 
-                     alt="Tô Văn Minh Nhật" 
+                <img src={avatarImage}
+                     alt="Tô Văn Minh Nhật"
                      className="w-full h-full rounded-2xl object-cover border-2 border-indigo-500/30 shadow-2xl" />
               </div>
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-indigo-600/30 rounded-full blur-3xl"></div>
