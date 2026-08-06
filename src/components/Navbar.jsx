@@ -9,7 +9,7 @@ export default function Navbar() {
             <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
               <i className="fas fa-code text-white text-sm"></i>
             </div>
-            <span className="font-bold text-lg text-white">MVNH</span>
+            <span className="font-bold text-lg text-white">Tô Văn Minh Nhật</span>
           </div>
           <div className="hidden md:flex items-center gap-8">
             <a href="#about" className="text-slate-300 hover:text-indigo-400 transition">Về Tôi</a>
