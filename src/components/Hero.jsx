@@ -31,8 +31,8 @@ export default function Hero() {
             </p>
             
             <div className="flex gap-4 mb-8">
-              <a href="cv/index.html" className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/50">
-                <i className="fas fa-file-pdf mr-2"></i>Xem CV Đầy Đủ
+              <a href="/CV_ToVanMinhNhat-Full.pdf" download className="inline-block bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-lg font-semibold transition transform hover:scale-105 hover:shadow-lg hover:shadow-indigo-500/50">
+                <i className="fas fa-file-pdf mr-2"></i>Tải CV Đầy Đủ
               </a>
               <a href="#projects" className="inline-block border border-indigo-500 text-indigo-300 hover:text-white hover:border-indigo-400 px-8 py-3 rounded-lg font-semibold transition">
                 <i className="fas fa-folder-open mr-2"></i>Dự Án
